@@ -1,0 +1,19 @@
+{
+  "name": "slider-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/scss/styles.scss ./src/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandyMj/Slider-2.0.git"
+  },
+  "author": "RandMj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandyMj/Slider-2.0/issues"
+  },
+  "homepage": "https://github.com/RandyMj/Slider-2.0#readme"
+}
