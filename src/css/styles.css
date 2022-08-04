@@ -25,7 +25,7 @@ html, body {
 .container .img-text {
     position: absolute;
     top: 6.5em;
-    left: 40%;
+    left: calc(50% - 120px);
     z-index: 5;
     color: rgb(240, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 2em;
@@ -45,7 +45,7 @@ html, body {
     /* transform: translateX(0%); */
 }
 .container .img-container img {
-    /* We need to give the images the size of its father container size under 5 (because we are using five images) */
+    /* We need to give the images the size of its father container size under items number (because we are using that number of elements) */
     width: calc(100% / var(--items-number));
     height: 310px;
 }
